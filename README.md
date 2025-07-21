@@ -57,11 +57,11 @@ Users should be able to:
 
 ### What I learned
 
-First Time actually manipulating DOM elements,implemnting a pre-built elemebt and then editing it, and using localstorage to save the active and unactive extensions, and toggling lightmode. 
+First Time actually manipulating DOM elements,implemnting a pre-built elemebt and then editing it, and using localstorage to save the active and unactive extensions, and toggling lightmode.The project overall was a very good way to get back on track after having to stop learning front-end developing because of the time presure in both University and preparing for the GOETHE German B1 exam I took and succsefully passed in May. 
 
 ### Continued development
 
-I'd like to organinze the code more, decrease the nested if statments, and improving event delegations
+I'd like to organinze the JS code more, decrease the nested if statments, and improving event delegations and use a better way to render the extensions list.
 
 ### Useful resources
 
