@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/master.css">
+  <link rel="stylesheet" href="/css/framework.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 150px;
+      margin-bottom: 20px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- start header  -->
+  <header class="heading mt-20">
+    <div class="container between-flex rad-10 ">
+      <div class="logo-img">
+        <img src="/assets/images/logo.svg" alt="">
+      </div>
+      <div class="lighting-mode">
+        <img src="/assets/images/icon-sun.svg" alt="">
+      </div>
+    </div>
+  </header>
+
+  <!-- end header  -->
+  <!-- start ext header  -->
+
+  <div class="extensions-header">
+    <div class="container between-flex">
+      <h3>Extensions List</h3>
+      <ul class="activation-list d-flex">
+        <li class="activation-state active all-btn"><a >All</a></li>
+        <li class="activation-state active-btn"><a >Active</a></li>
+        <li class="activation-state inactive-btn"><a >Inactive</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- end ext header  -->
+  <!-- start exts -->
+  <div class="extensions">
+    <div class="container d-grid">
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-devlens.svg" alt="">
+          </div>
+          <div class="ext">
+            <h3>DevLens</h3>
+            <div class="ext-desc"> Quickly inspect page layouts and visualize element boundaries.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a>Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive1">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive1">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+        
+
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-style-spy.svg" alt="">
+          </div>
+          <div class="ext">
+            <h3>StyleSpy</h3>
+            <div class="ext-desc">  Instantly analyze and copy CSS from any webpage element.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a >Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive2">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive2">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+        
+  
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-speed-boost.svg" alt="">
+          </div>
+          <div class="ext">
+            <h3>SpeedBoost</h3>
+            <div class="ext-desc">Optimizes browser resource usage to accelerate page loading.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a >Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive3">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive3">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+        
+  
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-json-wizard.svg" alt="">
+          </div>
+          <div class="ext">
+            <h3>JSONWizard</h3>
+            <div class="ext-desc">Formats, validates, and prettifies JSON responses in-browser.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a >Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive4">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive4">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-tab-master-pro.svg" alt="">
+          </div>
+          <div class="ext">
+            <h3>TabMaster Pro</h3>
+            <div class="ext-desc">Organizes browser tabs into groups and sessions.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a >Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive5">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive5">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div>  
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-viewport-buddy.svg" alt="">
+          </div>
+          <div class="ext">
+            <h3>ViewportBuddy</h3>
+            <div class="ext-desc">Simulates various screen resolutions directly within the browser.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a >Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive6">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive6">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div>  
+  
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-markup-notes.svg" alt="">
+          </div>
+          <div class="ext">
+            <h3>Markup Notes</h3>
+            <div class="ext-desc">Enables annotation and notes directly onto webpages for collaborative debugging.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a >Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive7">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive7">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div>  
+  
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-grid-guides.svg" alt="">
+          </div>
+          <div class="ext ">
+            <h3>GridGuides</h3>
+            <div class="ext-desc">Overlay customizable grids and alignment guides on any webpage.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a >Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive8">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive8">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div>  
+  
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-palette-picker.svg" alt="">
+          </div>
+          <div class="ext ">
+            <h3>Palette Picker</h3>
+            <div class="ext-desc">Instantly extracts color palettes from any webpage.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a >Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive9">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive9">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+        
+  
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-link-checker.svg" alt="">
+          </div>
+          <div class="ext ">
+            <h3>LinkChecker</h3>
+            <div class="ext-desc">Scans and highlights broken links on any page.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a >Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive10">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive10">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+  
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-dom-snapshot.svg" alt="">
+          </div>
+          <div class="ext ">
+            <h3>DOM Snapshot</h3>
+            <div class="ext-desc">Capture and export DOM structures quickly.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a >Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive11">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive11">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div> 
+  
+      <div class="ext-box d-flex">
+        <div class="ext-about d-flex">
+          <div class="ext-img">
+            <img src="/assets/images/logo-console-plus.svg" alt="">
+          </div>
+          <div class="ext ">
+            <h3>ConsolePlus</h3>
+            <div class="ext-desc">Enhanced developer console with advanced filtering and logging.</div>
+          </div>
+        </div>
+        <div class="ext-toolbox between-flex">
+          <div class="remove-btn">
+            <a>Remove</a>
+          </div>
+          <div class="active-checkbox">
+            <label class="checkbox_wrap" for="isActive12">
+              <input type="checkbox" name="checkbox" class="checkbox_inp" id="isActive12">
+              <span class="checkbox_mark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end exts -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/majedJh">MHD Majed Aljajeh</a>.
+  </div>
+</body>
+
+</html>
